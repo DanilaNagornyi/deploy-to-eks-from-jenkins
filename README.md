@@ -12,7 +12,6 @@ This repository contains configuration files and instructions for setting up aut
 
 ## 🏗️ Architecture
 
-- **Config Repository**: gitlab.com/twn-devops-bootcamp/latest/11-eks/deploy-to-eks-from-jenkins
 - **Application Repository**: jenkins-java-maven (branch `deploy-on-k8s`)
 - **CI/CD**: Jenkins
 - **Container Orchestration**: Amazon EKS
@@ -158,7 +157,7 @@ docker ps | grep jenkins
 
 ## 📚 References
 
-- Application Repository: [jenkins-java-maven](https://gitlab.com/twn-devops-bootcamp/latest/11-eks/jenkins-java-maven)
+- Application Repository: [jenkins-java-maven](https://github.com/DanilaNagornyi/jenkins-java-maven)
 - Branch for deployment: `deploy-on-k8s`
 - AWS IAM Authenticator: [GitHub](https://github.com/kubernetes-sigs/aws-iam-authenticator)
 
